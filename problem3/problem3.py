@@ -1,4 +1,4 @@
-from math import sqrt, ceil
+from math import sqrt
 
 
 def largest_prime_factor(number):
@@ -15,4 +15,6 @@ def is_prime(number):
             return False
     return True
 
-print(largest_prime_factor(600851475143))
+
+number = 600851475143
+print(largest_prime_factor(number))
